@@ -26,8 +26,8 @@ async def getDatas():
     ivd = response["list"]
     #print(ivd)
     for inc in ivd:
-        #if inc["date"] == object_date:
-        if inc["date"] == "2025-01-29":
+        if inc["date"] == object_date:
+        #if inc["date"] == "2025-01-29":
             if inc["list"] != []:
                 incidents = inc["list"]
                 for incident in incidents:
